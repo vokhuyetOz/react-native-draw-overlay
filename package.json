@@ -1,6 +1,6 @@
 {
   "name": "@vokhuyet/react-native-draw-overlay",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Draw over other apps in Android",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -21,10 +21,7 @@
     "src",
     "lib",
     "android",
-    "ios",
     "cpp",
-    "*.podspec",
-    "!ios/build",
     "!android/build",
     "!android/gradle",
     "!android/gradlew",
@@ -46,7 +43,6 @@
   },
   "keywords": [
     "react-native",
-    "ios",
     "android"
   ],
   "repository": {
@@ -185,7 +181,6 @@
     "type": "all",
     "jsSrcsDir": "src",
     "outputDir": {
-      "ios": "ios/generated",
       "android": "android/generated"
     },
     "android": {
@@ -194,7 +189,10 @@
   },
   "create-react-native-library": {
     "type": "module-mixed",
-    "languages": "kotlin-objc",
+    "languages": "kotlin",
     "version": "0.41.2"
+  },
+  "dependencies": {
+    "@vokhuyet/react-native-draw-overlay": "^1.0.0"
   }
 }

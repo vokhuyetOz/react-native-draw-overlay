@@ -1,3 +1,6 @@
+
+# Android only
+
 # @vokhuyet/react-native-draw-overlay
 
 Draw over other apps in Android
@@ -10,15 +13,14 @@ npm install @vokhuyet/react-native-draw-overlay
 
 ## Usage
 
-
 ```js
-import { multiply } from '@vokhuyet/react-native-draw-overlay';
+import { requestOverlayPermission, isOverlayPermissionGranted } from '@vokhuyet/react-native-draw-overlay';
 
 // ...
+const isGrantedBefore = await isOverlayPermissionGranted();
 
-const result = await multiply(3, 7);
+const grant = await requestOverlayPermission();
 ```
-
 
 ## Contributing
 

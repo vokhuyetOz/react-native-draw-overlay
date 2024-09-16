@@ -24,6 +24,9 @@ const ReactNativeDrawOverlay = ReactNativeDrawOverlayModule
       }
     );
 
-export function multiply(a: number, b: number): Promise<number> {
-  return ReactNativeDrawOverlay.multiply(a, b);
+export function requestOverlayPermission(): Promise<boolean> {
+  return ReactNativeDrawOverlay.requestOverlayPermission();
+}
+export function isOverlayPermissionGranted(): Promise<boolean> {
+  return ReactNativeDrawOverlay.isOverlayPermissionGranted();
 }

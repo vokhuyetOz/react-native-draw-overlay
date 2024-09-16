@@ -1,17 +1,17 @@
 import { useState, useEffect } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from '@vokhuyet/react-native-draw-overlay';
+import { requestOverlayPermission } from '@vokhuyet/react-native-draw-overlay';
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
+  const [grant, setGrant] = useState<boolean>();
 
   useEffect(() => {
-    multiply(3, 7).then(setResult);
+    requestOverlayPermission().then(setGrant);
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>grant: {grant}</Text>
     </View>
   );
 }
