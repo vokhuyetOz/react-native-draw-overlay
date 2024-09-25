@@ -26,7 +26,10 @@ class ReactNativeDrawOverlayModule internal constructor(private val reactContext
   private var permissionPromise: Promise? = null
 
   private fun canDrawOverlays(context: Context): Boolean {
-    if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M && Settings.canDrawOverlays(context)) {
+    if(Build.VERSION.SDK_INT <= Build.VERSION_CODES.M) {
+      return true
+    }
+    if (Settings.canDrawOverlays(context)) {
         return true
     }
     //USING APP OPS MANAGER

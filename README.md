@@ -11,6 +11,14 @@ Draw over other apps in Android
 npm install @vokhuyet/react-native-draw-overlay
 ```
 
+## Extra
+
+add to AndroidManifest.xml
+
+```javascript
+<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> 
+```
+
 ## Usage
 
 ```js

@@ -1404,7 +1404,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.20.0, @babel/preset-env@npm:^7.25.2":
+"@babel/preset-env@npm:^7.25.2":
   version: 7.25.4
   resolution: "@babel/preset-env@npm:7.25.4"
   dependencies:
@@ -1576,7 +1576,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.20.0, @babel/runtime@npm:^7.25.0, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.25.0, @babel/runtime@npm:^7.8.4":
   version: 7.25.6
   resolution: "@babel/runtime@npm:7.25.6"
   dependencies:
@@ -2901,29 +2901,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native/metro-config@npm:0.75.3":
-  version: 0.75.3
-  resolution: "@react-native/metro-config@npm:0.75.3"
-  dependencies:
-    "@react-native/js-polyfills": 0.75.3
-    "@react-native/metro-babel-transformer": 0.75.3
-    metro-config: ^0.80.3
-    metro-runtime: ^0.80.3
-  checksum: 8e1e6d6f58b8269ad8cb4c18c564eee59c273b5abf4768cec2117dd2f2bdafd9fb4c895a0e2195199ac685a215083e6ce142983865e673f0ea91b785deaecd2a
-  languageName: node
-  linkType: hard
-
 "@react-native/normalize-colors@npm:0.75.3":
   version: 0.75.3
   resolution: "@react-native/normalize-colors@npm:0.75.3"
   checksum: 78c43611fa5c0dedcc5f46423e7c8def0a1518917c829f45028a43a6e9edd7e9986303b63b7c93785eb6ed7bb6153c6f649ec0ab6cf6798981e16be22f737894
-  languageName: node
-  linkType: hard
-
-"@react-native/typescript-config@npm:0.75.3":
-  version: 0.75.3
-  resolution: "@react-native/typescript-config@npm:0.75.3"
-  checksum: ed3164fde0147bb0ae180d8a64b3bf999be5f4879566bcae87e13179b6cbc3bd64fd52109f5c574b72d72860ead0124a4d6524e9bfe377b33e3bf39a882596d3
   languageName: node
   linkType: hard
 
@@ -2955,61 +2936,6 @@ __metadata:
   peerDependencies:
     release-it: ^15.4.1
   checksum: 15ade4ab88dabea7664b28494db035707eb84acc897b51472142abcac6c6acae0e90f9db7d8c93bb1de697678e7321d31192362565c538d4f62a4e7600bc30b2
-  languageName: node
-  linkType: hard
-
-"@rnx-kit/metro-config@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@rnx-kit/metro-config@npm:2.0.0"
-  dependencies:
-    "@rnx-kit/tools-node": ^3.0.0
-    "@rnx-kit/tools-react-native": ^2.0.0
-    "@rnx-kit/tools-workspaces": ^0.2.0
-  peerDependencies:
-    "@react-native/metro-config": "*"
-    react: "*"
-    react-native: "*"
-  peerDependenciesMeta:
-    "@react-native/metro-config":
-      optional: true
-  checksum: ea29a24f7107989d2f69c78c00ea0641a0e83fe38ccb9b54b704b09e963a8f32a0066ce2637e8c3873ab385c6f6f57ef70ddfc09cc0af70662f5cf5cef1cb5ef
-  languageName: node
-  linkType: hard
-
-"@rnx-kit/react-native-host@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "@rnx-kit/react-native-host@npm:0.5.0"
-  peerDependencies:
-    react-native: ">=0.66"
-  checksum: 5d8477169dc215b838c1ee47e2f7905e5decc86759a8ab245d9a99ee46cb35794a1442b597653223924288698126a1912e898bdd51dbe9043f296f63f3aeb3f2
-  languageName: node
-  linkType: hard
-
-"@rnx-kit/tools-node@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@rnx-kit/tools-node@npm:3.0.0"
-  checksum: fecf7d94e1d1eed1e06ac9e172591011ed24c8babe435492c8b8cecc1a6ab5c4445630bc14468990345e8e3804ee4a1f4ad59b5ef3ae9dd0827572a5378d642b
-  languageName: node
-  linkType: hard
-
-"@rnx-kit/tools-react-native@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@rnx-kit/tools-react-native@npm:2.0.0"
-  dependencies:
-    "@rnx-kit/tools-node": ^3.0.0
-  checksum: e3e5b2351c5cd9806ab20a90384d3f83484ffdc50b292f682e034cf2569ac32b0d32f7011146d27e3ab112ddb1302b54de1f233aee338b1fad2cb24afe97b4d7
-  languageName: node
-  linkType: hard
-
-"@rnx-kit/tools-workspaces@npm:^0.2.0":
-  version: 0.2.0
-  resolution: "@rnx-kit/tools-workspaces@npm:0.2.0"
-  dependencies:
-    fast-glob: ^3.2.7
-    find-up: ^5.0.0
-    read-yaml-file: ^2.1.0
-    strip-json-comments: ^3.1.1
-  checksum: a1e6281bd04e06fb3f4a998fb07f7bcd9e9fefb96d4541203af151d6a457e58a51b502422fde553982060849f132f67e1e4c36f40bb605ca5b33a75f9ef027d0
   languageName: node
   linkType: hard
 
@@ -3427,24 +3353,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vokhuyet/react-native-draw-overlay-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "@vokhuyet/react-native-draw-overlay-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.20.0
-    "@babel/preset-env": ^7.20.0
-    "@babel/runtime": ^7.20.0
-    "@react-native/babel-preset": 0.75.3
-    "@react-native/metro-config": 0.75.3
-    "@react-native/typescript-config": 0.75.3
-    "@rnx-kit/metro-config": ^2.0.0
-    react: 18.3.1
-    react-native: 0.75.3
-    react-native-builder-bob: ^0.30.2
-    react-native-test-app: ^3.10.5
-  languageName: unknown
-  linkType: soft
-
 "@vokhuyet/react-native-draw-overlay@^1.0.0, @vokhuyet/react-native-draw-overlay@workspace:.":
   version: 0.0.0-use.local
   resolution: "@vokhuyet/react-native-draw-overlay@workspace:."
@@ -3588,7 +3496,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^8.0.0, ajv@npm:^8.11.0":
+"ajv@npm:^8.11.0":
   version: 8.17.1
   resolution: "ajv@npm:8.17.1"
   dependencies:
@@ -4554,7 +4462,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cliui@npm:^8.0.0, cliui@npm:^8.0.1":
+"cliui@npm:^8.0.1":
   version: 8.0.1
   resolution: "cliui@npm:8.0.1"
   dependencies:
@@ -6295,7 +6203,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.7, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.2":
+"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.0, fast-glob@npm:^3.3.2":
   version: 3.3.2
   resolution: "fast-glob@npm:3.3.2"
   dependencies:
@@ -6329,7 +6237,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-xml-parser@npm:^4.0.0, fast-xml-parser@npm:^4.4.1":
+"fast-xml-parser@npm:^4.4.1":
   version: 4.5.0
   resolution: "fast-xml-parser@npm:4.5.0"
   dependencies:
@@ -8579,7 +8487,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^4.0.0, js-yaml@npm:^4.1.0":
+"js-yaml@npm:^4.1.0":
   version: 4.1.0
   resolution: "js-yaml@npm:4.1.0"
   dependencies:
@@ -10666,7 +10574,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prompts@npm:^2.0.1, prompts@npm:^2.4.0, prompts@npm:^2.4.2":
+"prompts@npm:^2.0.1, prompts@npm:^2.4.2":
   version: 2.4.2
   resolution: "prompts@npm:2.4.2"
   dependencies:
@@ -10878,42 +10786,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-test-app@npm:^3.10.5":
-  version: 3.10.5
-  resolution: "react-native-test-app@npm:3.10.5"
-  dependencies:
-    "@rnx-kit/react-native-host": ^0.5.0
-    ajv: ^8.0.0
-    cliui: ^8.0.0
-    fast-xml-parser: ^4.0.0
-    prompts: ^2.4.0
-    semver: ^7.3.5
-    uuid: ^10.0.0
-  peerDependencies:
-    "@callstack/react-native-visionos": 0.73 - 0.75
-    "@expo/config-plugins": ">=5.0"
-    react: 17.0.1 - 19.0
-    react-native: 0.66 - 0.75 || >=0.76.0-0 <0.76.0
-    react-native-macos: ^0.0.0-0 || 0.66 || 0.68 || 0.71 - 0.75
-    react-native-windows: ^0.0.0-0 || 0.66 - 0.75
-  peerDependenciesMeta:
-    "@callstack/react-native-visionos":
-      optional: true
-    "@expo/config-plugins":
-      optional: true
-    react-native-macos:
-      optional: true
-    react-native-windows:
-      optional: true
-  bin:
-    configure-test-app: scripts/configure.mjs
-    init: scripts/init.mjs
-    init-test-app: scripts/init.mjs
-    install-windows-test-app: windows/test-app.mjs
-  checksum: 4806f2b75ef85909caba5019e5871c9becba5b58ff65757d401fb9e3ee05b36fc7e68198b32b295fb8f66399cf10ea47d2c07d74a65eea15b7600cee1bd97ebf
-  languageName: node
-  linkType: hard
-
 "react-native@npm:0.75.3":
   version: 0.75.3
   resolution: "react-native@npm:0.75.3"
@@ -11049,16 +10921,6 @@ __metadata:
     parse-json: ^5.2.0
     type-fest: ^1.0.1
   checksum: 0cebdff381128e923815c643074a87011070e5fc352bee575d327d6485da3317fab6d802a7b03deeb0be7be8d3ad1640397b3d5d2f044452caf4e8d1736bf94f
-  languageName: node
-  linkType: hard
-
-"read-yaml-file@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "read-yaml-file@npm:2.1.0"
-  dependencies:
-    js-yaml: ^4.0.0
-    strip-bom: ^4.0.0
-  checksum: 52765eb183e79466f51eebeb19b933cc0f0e907052d062d67300b97e79910064a24b370cdb0b5dd8b05afff3d0ec57282670fd9070dc608e13b11820ac79183d
   languageName: node
   linkType: hard
 
@@ -12952,15 +12814,6 @@ __metadata:
   version: 1.0.1
   resolution: "utils-merge@npm:1.0.1"
   checksum: c81095493225ecfc28add49c106ca4f09cdf56bc66731aa8dabc2edbbccb1e1bfe2de6a115e5c6a380d3ea166d1636410b62ef216bb07b3feb1cfde1d95d5080
-  languageName: node
-  linkType: hard
-
-"uuid@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "uuid@npm:10.0.0"
-  bin:
-    uuid: dist/bin/uuid
-  checksum: 4b81611ade2885d2313ddd8dc865d93d8dccc13ddf901745edca8f86d99bc46d7a330d678e7532e7ebf93ce616679fb19b2e3568873ac0c14c999032acb25869
   languageName: node
   linkType: hard
 
