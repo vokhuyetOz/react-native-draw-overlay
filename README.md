@@ -1,6 +1,9 @@
 
 # Android only
 
+[x] New Architect support
+[x] Compatitive old Architect
+
 # @vokhuyet/react-native-draw-overlay
 
 Draw over other apps in Android
