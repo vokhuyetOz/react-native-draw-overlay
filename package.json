@@ -1,6 +1,6 @@
 {
   "name": "@vokhuyet/react-native-draw-overlay",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Draw over other apps in Android",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
