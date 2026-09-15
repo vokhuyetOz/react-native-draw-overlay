@@ -57,14 +57,14 @@ class ReactNativeDrawOverlayModule internal constructor(private val reactContext
     return false
 }
 
-override fun onActivityResult(activity: Activity?, requestCode: Int, resultCode: Int, data: Intent?) {
+override fun onActivityResult(activity: Activity, requestCode: Int, resultCode: Int, data: Intent?) {
     if (requestCode == REQUEST_CODE_CAN_DRAW_OVERLAYS) {
         permissionPromise?.resolve(canDrawOverlays(reactContext))
         permissionPromise = null
     }
 }
 
-override fun onNewIntent(intent: Intent?) {}
+override fun onNewIntent(intent: Intent) {}
 
 @ReactMethod
 override fun requestOverlayPermission(promise: Promise) {
